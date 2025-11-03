@@ -1,0 +1,52 @@
+#heading {
+  color: red;
+}
+
+.header {
+  border: 1px solid;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-item ul {
+  justify-content: end;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item ul li {
+  padding: 0 25px;
+}
+
+.rest-card {
+  background-color: #f0f0f0;
+  border: 1px solid #0000;
+  width: 200px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.rest-card:hover {
+  border: 1px solid #000;
+}
+
+.rest-card img {
+  max-width: 100%;
+}
+
+.rest-card h4, h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.resturant-container {
+  flex-wrap: wrap;
+  margin-top: 20px;
+  display: flex;
+}
+/*# sourceMappingURL=Namste_React.9e4c6fd2.css.map */
